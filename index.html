@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tétano</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top " id="navbar">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown" id="navb">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tétano Neonatal
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#neonatalResumo">Resumo</a></li>
+              <li><a class="dropdown-item" href="#sintomasNeonatal">Sintomas</a></li>
+              <li><a class="dropdown-item" href="#historicoNeonatal">Histórico</a></li>
+              <li><a class="dropdown-item" href="#tratamentoNeonatal">Tratamento</a></li>
+              <li><a class="dropdown-item" href="#situacaoNeonatal">Situação</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tétano Acidental
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#resumoAcidental">Resumo</a></li>
+              <li><a class="dropdown-item" href="#sintomasAcidental">Sintomas</a></li>
+              <li><a class="dropdown-item" href="#historicoAcidental">Histórico</a></li>
+              <li><a class="dropdown-item" href="#tratamentoAcidental">Tratamento</a></li>
+              <li><a class="dropdown-item" href="#situacaoAcidental">Situação</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid mx-auto">
+    <h3 class="titulo">Tétano</h3>
+    <div class="row mx-auto text-center" id="introducaoDivisor">
+      <h4 class="introducaoTitulo" id="introducaoTitulo">Introdução</h4>
+      <div class="introducaoTextoImg">
+        <div class="textointroducao">
+          <p class="texto">O tétano possui duas variações, o neonatal e o acidental, sendo o tétano neonatal
+            uma doença
+            infecciosa aguda, grave, não contagiosa que ataca o recém-nascido nos primeiros 26 dias
+            de vida, já o tétano acidental é uma infecção causada por uma bactéria encontrada na
+            natureza e não contagiosa.
+            <br> Os primeiros sintomas do tétano foram descritos na antiguidade, nas regiões do Egito Antigo, da Índia e
+            da Grécia, mas sua etiologia (pesquisa e determinação das causas e origens de um
+            determinado fenômeno) foi descoberta somente em 1884.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mx-auto text-center" id="NeonatalDivisor">
+      <div class="imgneonataldiv">
+        <img class="imgneonatal img-fluid" id="neonatal" src="img/tetano-neonatal.png" />
+      </div>
+      <h3 class="neonatalTitulo" id="neonatalTitulo">Neonatal</h3>
+      <div class="neonatalTextoImg">
+        <div class="resumoNeonatal">
+          <div class="tituloResumoNeonataldiv">
+            <h5 class="tituloResumoNeonatal" id="neonatalResumo">Resumo</h5>
+          </div>
+          <div class="textoResumoNeonatal">
+            <p class="textoNeonatal">
+              O tétano neonatal (TNN) afeta recém-nascidos no primeiro mês de vida.
+              A bactéria causadora da doença se chama Clostridium tetani. <br>
+              A suscetibilidade (capacidade de desenvolver a doença) do tétano neonatal é universal, podendo afetar
+              qualquer
+              recém-nascido,
+              independente do sexo. <br>A imunidade do recém-nascido é conferida pela vacinação da mãe e contrair a
+              doença
+              não confere imunidade.<br> A imunidade passiva,
+              por meio do soro antitetânico (SAT), dura em média duas semanas e pela imunoglobulina humana antitetânica
+              (IGHAT) cerca de três semanas.<br>
+              O tétano neonatal é transmitido pela contaminação do coto umbilical com os esporos da bactéria, podendo
+              ser
+              presentes em instrumentos não esterilizados e
+              utilizados para secção do cordão umbilical. <br>O diagnóstico do tétano neonatal é essencialmente clínico
+              e
+              não existe exame laboratorial específico para confirmação do diagnóstico.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="tituloSintomasdiv">
+        <h5 class="sintomasNeonatal" id="sintomasNeonatal">Sintomas</h5>
+      </div>
+      <div class="listaSintomas">
+        <ul class="list-group" id="ulSintomas">
+          <li class="list-group-item">• Choro excessivo</li>
+          <li class="list-group-item">• Dificuldade para mamar e abrir a boca</li>
+          <li class="list-group-item">• Irritabilidade</li>
+          <li class="list-group-item">• Quando há presença de febre, ela é baixa</li>
+          <li class="list-group-item">• Contraturas musculares ao manuseio ou espontâneas.</li>
+        </ul>
+      </div>
+      <div class="tituloHistoricoNeonataldiv">
+        <h5 class="historicoNeonatal" id="historicoNeonatal">Histórico</h5>
+      </div>
+      <div class="textoHistoricoNeonataldiv">
+        <p class="textoHistoricoNeonatal">
+          A partir da primeira metade do século 20 até a década de 1970, o tétano neonatal, também conhecido como
+          tétano umbilical e tétano neonatorum era um problema sério de Saúde Pública, que atingia principalmente a zona
+          rural e a
+          periferia
+          das cidades.<br> No Brasil, em 1989 a 1996, foram confirmados 70 casos de tétano neonatal no estado de Minas
+          Gerais, tendo 48 desses casos terminados em óbito
+          das mães, criando assim a fama da doença como o "mal dos sete dias".<br>
+          Não são encontrados dados históricos de tétano neonatal antes do século 20.
+        </p>
+      </div>
+      <div class="tratamentoNeonataldiv">
+        <img src="img/vacina.png" id="imagemvacinatratamentoneonatal">
+        <div class="divtextotratamentoneonatal">
+          <div class="tituloTratamentodiv">
+            <h5 class="tratamentoNeonatal" id="tratamentoNeonatal">Tratamento</h5>
+          </div>
+          <div class="textoTratamentoNeonataldiv">
+            <p class="textoTratamentoNeonatal">
+              O paciente diagnosticado é internado em unidade de terapia intensiva (UTI) ou em enfermarias apropriadas,
+              acompanhado por uma equipe médica e de enfermagem experiente e treinada na assistência dessa enfermidade.
+              É
+              usado
+              imunoglobulina humana antitetânica ou soro antitetânico, antibiótico, sedativos e outras medidas de
+              suporte
+              que o caso exigir.<br>
+              Pode-se evitar o tétano neonatal por meio da vacina antitetânica, tendo uma eficácia de quase 100%, além
+              de
+              cuidados higienicos e adequados com o
+              coto umbilical no parto.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="situacaoneonataldiv">
+        <div class="textodivneonatalsituacao">
+          <div class="tituloSituacaodiv">
+            <h5 class="situacaoNeonatal" id="situacaoNeonatal">Situação</h5>
+          </div>
+          <div class="textoSituacaoNeonataldiv">
+            <p class="textoSituacaoNeonatal">
+              Em 1989 a Organização de Saude (OMS) aprovou uma resolução propondo a eliminação do Tétano Neonatal (TNN)
+              em
+              todo o mundo até o ano de 1995, onde a meta mínima de eliminação
+              seria equivalente a alcançar uma taxa de incidência de menos de um caso/1.000 nascidos por distrito ou
+              município.<br> Em 1992 esse plano fez com que a incidência da doença reduzisse
+              sensivelmente ao longo dos anos. No mesmo ano o plano foi implantado no Brasil e em 1995 o Plano
+              Emergencial
+              foi
+              implantado em municípios de alto risco. O número de casos do tétano neonatal passou de 215, em 1993, para
+              16
+              casos em 2003, tendo uma redução de 92%.<br>
+              Em setembro de 2017 a Organização Pan-Americana de Saúde (Pas/OMS) declarou eliminado o tétano materno e
+              neonatal (TMN) nas Américas. O recente progresso na eliminação global levou
+              à eliminação da doença em 43 países. No mundo, há 16 países que ainda não eliminaram a doença.
+            </p>
+          </div>
+        </div>
+        <img src="img/medico.svg" id="svgmedico">
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto text-center" id="acidentalDivisor">
+    <div class="imgAcidental">
+      <img class="imgtetanoacidental img-fluid" src="img/tetano-acidental.png" />
+    </div>
+    <h3 class="acidentalTitulo" id="acidentalTitulo">Acidental</h3>
+    <div class="resumoAcidental">
+      <div class="tituloResumoAcidentaldiv">
+        <h5 class="tituloResumoAcidental" id="resumoAcidental">Resumo</h5>
+      </div>
+      <div class="textoResumoNeonatal">
+        <p class="textoNeonatal">
+          O tétano acidental é uma infecção causada por uma bactéria encontrada na natureza e não é contagiosa. A
+          principal forma de prevenção é por meio da vacina pentavalente. A bactéria causadora do tétano acidental pode
+          ser encontrada em peles, fezes, terra, galhos, plantas baixas, água suja e poeira.<br> Se não tratado
+          corretamente,
+          pode ser uma doença letal, tendo a chance de morte dependente da idade do enfermo, o tipo de ferimento e a
+          presença de outros problemas de saúde, como complicações respiratórias, renais e infecciosas.<br>
+          O tétano acidental pode atingir qualquer pessoa, independente do sexo e idade e em qualquer lugar do mundo.
+          Essa doença não é transmitida de pessoa a pessoa. A transmissão ocorre, geralmente, pela contaminação de um
+          ferimento da pele ou mucosa. Os sintomas aparecem, em média, cerca de 5 a 15 dias após a infecção. Quanto
+          menor
+          o tempo em que os sintomas são aparentes, mais grave e pior é o prognóstico (resultado da doença).
+        </p>
+      </div>
+    </div>
+    <div class="tituloSintomasAcidentaldiv">
+      <h5 class="tituloSintomasAcidental" id="sintomasAcidental">Sintomas</h5>
+    </div>
+    <div class="listaSintomas">
+      <ul class="list-group" id="ulSintomas">
+        <li class="list-group-item">• Contraturas musculares</li>
+        <li class="list-group-item">• Rigidez de membros (braços e pernas)</li>
+        <li class="list-group-item">• Rigidez abdominal</li>
+        <li class="list-group-item">• Dificuldade de abrir a boca</li>
+        <li class="list-group-item">• Dores nas costas e nos membros (braços e pernas)</li>
+      </ul>
+    </div>
+    <div class="tituloHistoricoNeonataldiv">
+      <h5 class="historicoNeonatal" id="historicoAcidental">Histórico</h5>
+    </div>
+    <div class="textoHistoricoNeonataldiv">
+      <p class="textoHistoricoNeonatal">
+        O primeiro registro de ocorrência de tétano é de autoria de Hipócrates, que escreve no século V a.C., dando
+        inúmeras descrições clínicas da doença. Contudo a sua causa foi descoberta somente em 1884, por Carle e
+        Rattone.<br>
+        A primeira imunização passiva contra a doença foi implementada durante a Primeira Guerra Mundial.<br>Durante
+        muitos anos o antídoto era feito por injeção de toxina em cavalos, e o seu soro rico em anticorpos antitoxina
+        era administrado aos doentes. Contudo este processo gerava reações imunitárias contra os anticorpos do cavalo,
+        um problema denominado de doença do soro. Por essa razão, cada pessoa só podia receber antídoto uma vez na vida,
+        pois a reação do seu sistema imunitário contra o anticorpo de cavalo era quase sempre fatal à segunda aplicação
+        do soro.
+      </p>
+    </div>
+    <div class="tratamentoacidentaldiv">
+      <div class="textotratamentoacidentaldiv">
+        <div class="tituloTratamentodiv">
+          <h5 class="tratamentoNeonatal" id="tratamentoAcidental">Tratamento</h5>
+        </div>
+        <div class="textoTratamentoNeonataldiv">
+          <p class="textoTratamentoNeonatal">
+            O diagnóstico dessa doença é clínico sem a necessidade de confirmação laboratorial.
+            Para o tratamento do tétano acidental, é necessário lavar o local onde houve uma lesão de pele/mucosa com
+            água
+            e
+            sabão e procurar o serviço de saúde mais próximo para avaliar a situação.<br> Se apresentar um dos sinais e
+            sintomas
+            característicos do tétano,é indicado procurar a unidade ou equipe de saúde próxima. O doente é internado em
+            unidade de assistencia, preferencialmente em unidade de terapia intensiva (UTI) onde existe suporte técnico
+            necessário principalmente em complicações, sendo reduzidas as chances de sequelas e risco de morte.<br> O
+            procedimento de tratamento da doença envolve sedação do paciente, neutralização da toxina tetânica,
+            eliminação
+            do
+            C. tetani do foco da infecção, debridamento do foco infeccioso e medidades gerais de suporte de
+            enfermos.<br>O
+            soro antitetânico (SAT) visa neutralizar a toxina da bactéria. É um produto cada vez mais purificado, em
+            razão
+            do que se considera rara a possibilidade de causar comlicações graves, como choque anafilático e adoença do
+            soro.
+          </p>
+        </div>
+      </div>
+      <img src="img/sintomasAcidental.svg" id="svgtratamentoacidental">
+    </div>
+    <div class="situacaoacidentaldiv">
+      <img src="img/situacaoacidentalm.svg" id="imgsituacaoacidental">
+      <div class="textoacidentaldiv">
+        <div class="tituloSituacaodiv">
+          <h5 class="situacaoNeonatal" id="situacaoAcidental">Situação</h5>
+        </div>
+        <div class="textoSituacaoNeonataldiv">
+          <p class="textoSituacaoNeonatal">
+            Entre os anos de 2012 e 2021 foram registrados 2.381 casos de tétano acidental no Brasil, sendo 70% dos
+            casos
+            concentrados no grupo com faixa etária de 30 a 69 anos de idade. <br>Em 2019, 2020 e 2021 foram confirmados
+            220,
+            176
+            e 154 casos, tendo a letalidade de 31%, 38% e 25%, sendo considerada elevada quando comparada com os países
+            desenvolvidos, onde se apresenta entre 10 a 17% de letalidade.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="footer">
+    <footer>
+      
+    </footer>
+  </div>
+  </div>
+</body>
+<script>
+  window.onscroll = function () { myFunction() };
+
+  var navbar = document.getElementById("navbar");
+
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

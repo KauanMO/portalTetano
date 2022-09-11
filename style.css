@@ -1,0 +1,392 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.texto{
+  text-align: justify;
+}
+
+p{
+  text-align: justify;
+}
+
+#introducaoDivisor{
+  border-top: 1px solid #808080;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.introducaoTextoImg{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgneonataldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.imgneonatal{
+  width: 900px;
+}
+
+.textointroducao{
+  width: 85%;
+}
+
+#NeonatalDivisor{
+  border-top: 1px solid #808080;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 60%;
+}
+
+#acidentalDivisor{
+  border-top: 1px solid #808080;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.neonatalTitulo{
+  margin-top: 10px;
+}
+
+.listaSintomas{
+  display: flex;
+  justify-content: center;
+}
+
+#ulSintomas{
+  width: 50%;
+  text-align: start;
+}
+
+.tituloMobile{
+  margin-left: 500%;
+}
+
+#navb{
+  margin-left: 80px;
+}
+
+.historicoNeonatal{
+  margin-top: 10px;
+}
+
+.textoResumoNeonatal{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.textoNeonatal{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.textoResumoAcidental{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.textoResumoAcidental{
+  width: 85%;
+}
+
+.tituloResumoAcidental{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloResumoAcidentaldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.sintomasNeonatal{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloSintomasAcidental{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloResumoNeonatal{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloResumoNeonataldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.historicoNeonatal{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloHistoricoNeonataldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.tratamentoNeonatal{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tratamentoNeonataldiv{
+  display: flex;
+  align-items: center;
+}
+
+.tituloTratamentodiv{
+  display: flex;
+  justify-content: center;
+}
+
+.situacaoNeonatal{
+  border-bottom: 1px solid #FFC776;
+  border-width: 2px;
+}
+
+.tituloSituacaodiv{
+  display: flex;
+  justify-content: center;
+}
+
+.tituloSintomasdiv{
+  display: flex;
+  justify-content: center;
+}
+
+.situacaoneonataldiv{
+  display: flex;
+}
+
+#svgmedico{
+  width: 400px;
+}
+
+.tituloSintomasAcidentaldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.textoNeonatal{
+  width: 85%;
+}
+
+.textoHistoricoNeonataldiv{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.textoHistoricoNeonatal{
+  width: 85%;
+}
+
+.textoTratamentoNeonataldiv{
+  display: flex;
+  justify-content: center;
+}
+
+.textoTratamentoNeonatal{
+  width: 85%;
+}
+
+.textoSituacaoNeonatal{
+  width: 85%;
+}
+
+.textoSituacaoNeonataldiv{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.situacaoacidentaldiv{
+  display: flex;
+  align-items: center;
+}
+
+#imgtetanoacidental{
+  width: 400px;
+}
+
+a{
+  color: black !important;
+}
+
+.footer{
+  height: 200px;
+  background-color: #FFC16B;
+}
+
+#navbar{
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #FFC16B;
+}
+
+.textoNeonatal{
+  width: 85%;
+}
+
+#imagemvacinatratamentoneonatal{
+  width: 400px;
+}
+
+.tratamentoacidentaldiv{
+  display: flex;
+}
+
+#svgtratamentoacidental{
+  width: 400px;
+}
+
+.situacaoacidentaldiv{
+  display: flex;
+}
+
+#imgsituacaoacidental{
+  width: 400px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@media (max-width: 630px){
+  .textointroducao{
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: -15px;
+  }
+
+  .situacaoacidentaldiv{
+    display: unset;
+  }
+
+  .tratamentoNeonataldiv{
+    display: unset;
+  }
+
+  .tratamentoacidentaldiv{
+    display: unset;
+  }
+
+  #imgsituacaoacidental{
+    width: 300px;
+  }
+
+  #svgtratamentoacidental{
+    width: 300px;
+  }
+
+  .situacaoneonataldiv{
+    display: unset;
+  }
+
+  #svgmedico{
+    width: 300px;
+  }
+
+  #imagemvacinatratamentoneonatal{
+    width: 300px;
+  }
+
+  #navb{
+    margin-left: 0px;
+  }
+
+  #neonatal{
+    width: 100% !important;
+  }
+
+  #introducaoDivisor{
+    border-top: 1px solid #808080;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  #NeonatalDivisor{
+    border-top: 1px solid #808080;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  #acidentalDivisor{
+    border-top: 1px solid #808080;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  #ulSintomas{
+    width: 100%;
+    text-align: start;
+    font-size: 13px;
+  }
+
+  .textoNeonatal{
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .textoHistoricoNeonatal{
+    width: 100%;
+    font-size: 13px;
+  }
+    
+  .textoTratamentoNeonatal{
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .textoSituacaoNeonatal{
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .textoResumoAcidental{
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .imgtetanoacidental{
+    width: 100% !important;
+  }
+
+  #navbar{
+    background-color: #FFC776 !important;
+    display: flex;
+    justify-content: end;
+  }
+
+  a{
+    background-color: #FFC776 !important;
+  }
+
+  ul{
+    background-color: #FFC776 !important;
+  }
+}

@@ -16,10 +16,22 @@ p{
   text-align: justify;
 }
 
+#imgtetanoacidentale{
+  width: 900px;
+}
+
+.tratamentoacidentaldiv{
+  align-items: center;
+}
+
 #introducaoDivisor{
   border-top: 1px solid #808080;
   padding-top: 10px;
   width: 80%;
+}
+
+.situacaoneonataldiv{
+  align-items: center;
 }
 
 .introducaoTextoImg{
@@ -300,12 +312,6 @@ a{
   .situacaoneonataldiv{
     display: unset;
   }
-
-}
-
-
-
-@media (max-width: 1440px){
 
 }
 

@@ -19,7 +19,7 @@ p{
 #introducaoDivisor{
   border-top: 1px solid #808080;
   padding-top: 10px;
-  width: 60%;
+  width: 80%;
 }
 
 .introducaoTextoImg{
@@ -46,18 +46,24 @@ p{
   border-top: 1px solid #808080;
   margin-top: 10px;
   padding-top: 10px;
-  width: 60%;
+  width: 80%;
 }
 
 #acidentalDivisor{
   border-top: 1px solid #808080;
   margin-top: 10px;
   padding-top: 10px;
-  width: 60%;
+  width: 80%;
 }
 
 .neonatalTitulo{
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.acidentalTitulo{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .listaSintomas{
@@ -269,9 +275,38 @@ a{
   width: 400px;
 }
 
+.textoacidentaldiv{
+  align-items: center;
+}
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+@media(max-width: 1024px){
+  .situacaoacidentaldiv{
+    display: unset;
+  }
+
+  .tratamentoNeonataldiv{
+    display: unset;
+  }
+
+  .tratamentoacidentaldiv{
+    display: unset;
+  }
+
+  .situacaoneonataldiv{
+    display: unset;
+  }
+
+}
+
+
+
+@media (max-width: 1440px){
+
 }
 
 @media (max-width: 630px){

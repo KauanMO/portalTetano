@@ -16,22 +16,10 @@ p{
   text-align: justify;
 }
 
-#imgtetanoacidentale{
-  width: 900px;
-}
-
-.tratamentoacidentaldiv{
-  align-items: center;
-}
-
 #introducaoDivisor{
   border-top: 1px solid #808080;
   padding-top: 10px;
   width: 80%;
-}
-
-.situacaoneonataldiv{
-  align-items: center;
 }
 
 .introducaoTextoImg{
@@ -192,8 +180,13 @@ p{
   justify-content: center;
 }
 
+#ultimoItemLista{
+  text-align: justify;
+}
+
 .situacaoneonataldiv{
   display: flex;
+  align-items: center;
 }
 
 #svgmedico{
@@ -237,8 +230,6 @@ p{
   justify-content: center;
 }
 
-
-
 .situacaoacidentaldiv{
   display: flex;
   align-items: center;
@@ -253,8 +244,34 @@ a{
 }
 
 .footer{
-  height: 200px;
+  height: 100px;
   background-color: #FFC16B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#github{
+  font-size: 36px;
+  vertical-align: -webkit-baseline-middle;
+  
+}
+
+.contato{
+  display: flex;
+    justify-content: space-around;
+    /* width: 70%; */
+    /* text-align: center; */
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#linkedin{
+  font-size: 36px;
+  vertical-align: -webkit-baseline-middle;
 }
 
 #navbar{
@@ -265,6 +282,15 @@ a{
 
 .textoNeonatal{
   width: 85%;
+}
+
+#imgtetanoacidental{
+  width: 900px;
+  border-radius: 40px;
+}
+
+#neonatal{
+  border-radius: 40px;
 }
 
 #imagemvacinatratamentoneonatal{
@@ -360,6 +386,10 @@ a{
 
   #neonatal{
     width: 100% !important;
+  }
+
+  .ulBibliografia{
+    background-color: unset !important;
   }
 
   #introducaoDivisor{

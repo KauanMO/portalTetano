@@ -6,10 +6,16 @@ body{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #navbarNavDropdown{
   padding-top: 5px;
+}
+
+.resumoNeonatal{
+  padding-top: 30px;
 }
 
 .texto{
@@ -22,8 +28,9 @@ p{
 
 #introducaoDivisor{
   border-top: 1px solid #808080;
-  padding-top: 10px;
+  padding-top: 20px;
   width: 80%;
+  padding-bottom: 20px;
 }
 
 .introducaoTextoImg{
@@ -51,25 +58,29 @@ p{
 #NeonatalDivisor{
   border-top: 1px solid #808080;
   margin-top: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 80%;
 }
 
 #acidentalDivisor{
   border-top: 1px solid #808080;
   margin-top: 10px;
-  padding-top: 10px;
   width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .neonatalTitulo{
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 .acidentalTitulo{
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 .listaSintomas{
@@ -119,6 +130,7 @@ p{
 .tituloResumoAcidental{
   border-bottom: 1px solid #FFC776;
   border-width: 2px;
+  padding-top: 30px;
 }
 
 .tituloResumoAcidentaldiv{
@@ -141,6 +153,7 @@ p{
   border-width: 2px;
 }
 
+
 .tituloResumoNeonataldiv{
   display: flex;
   justify-content: center;
@@ -154,6 +167,7 @@ p{
 .tituloHistoricoNeonataldiv{
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .tratamentoNeonatal{
@@ -164,6 +178,7 @@ p{
 .tratamentoNeonataldiv{
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 .tituloTratamentodiv{
@@ -184,6 +199,7 @@ p{
 .tituloSintomasdiv{
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 #ultimoItemLista{
@@ -193,6 +209,7 @@ p{
 .situacaoneonataldiv{
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 #svgmedico{
@@ -202,6 +219,7 @@ p{
 .tituloSintomasAcidentaldiv{
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .textoNeonatal{
@@ -243,6 +261,11 @@ p{
 
 #imgtetanoacidental{
   width: 400px;
+}
+
+.listaBibliografia{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 a{
@@ -292,11 +315,15 @@ a{
 
 #imgtetanoacidental{
   width: 900px;
-  border-radius: 40px;
+  border-radius: 10px;
+}
+
+#divBibliografialegal{
+  padding-top: 30px;
 }
 
 #neonatal{
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 #imagemvacinatratamentoneonatal{
@@ -305,6 +332,7 @@ a{
 
 .tratamentoacidentaldiv{
   display: flex;
+  padding-top: 30px;
 }
 
 #svgtratamentoacidental{
@@ -363,11 +391,12 @@ a{
   }
 
   #listaSintomasid{
-    font-size: 18px !important;
+    font-size: 16px !important;
+    padding-top: 30px;
   }
 
   p{
-    font-size: 19px !important;
+    font-size: 17px !important;
   }
 
   .tratamentoacidentaldiv{
@@ -429,7 +458,6 @@ a{
   #ulSintomas{
     width: 100%;
     text-align: start;
-    font-size: 13px;
   }
 
   .textoNeonatal{

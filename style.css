@@ -203,7 +203,7 @@ p{
 }
 
 #ultimoItemLista{
-  text-align: justify;
+  margin-right: 10px;
 }
 
 .situacaoneonataldiv{
@@ -380,6 +380,11 @@ a{
     width: 100%;
     font-size: 13px;
     margin-bottom: -15px;
+  }
+
+  h5{
+    margin-top: 10px;
+    margin-bottom: 13px;
   }
 
   .situacaoacidentaldiv{

@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#" id="nav-home">Home</a>
           </li>
           <li class="nav-item dropdown" id="navb">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +41,7 @@
               <li><a class="dropdown-item" href="#situacaoNeonatal">Situação</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" id="navb">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Tétano Acidental
             </a>
@@ -53,7 +54,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#bibliografia">Bibliografia</a>
+            <a class="nav-link" href="#bibliografia" id="nav-bibliografia">Bibliografia</a>
           </li>
         </ul>
       </div>
@@ -66,14 +67,9 @@
       <h4 class="introducaoTitulo" id="introducaoTitulo">Introdução</h4>
       <div class="introducaoTextoImg">
         <div class="textointroducao">
-          <p class="texto">O tétano possui duas variações, o neonatal e o acidental, sendo o tétano neonatal
-            uma doença
-            infecciosa aguda, grave, não contagiosa que ataca o recém-nascido nos primeiros 26 dias
-            de vida, já o tétano acidental é uma infecção causada por uma bactéria encontrada na
-            natureza e não contagiosa.
-            <br> Os primeiros sintomas do tétano foram descritos na antiguidade, nas regiões do Egito Antigo, da Índia e
-            da Grécia, mas sua etiologia (pesquisa e determinação das causas e origens de um
-            determinado fenômeno) foi descoberta somente em 1884.
+          <p class="texto">O tétano possui duas variações, o neonatal e o acidental, sendo o tétano neonatal uma doença
+            infecciosa aguda, grave, não contagiosa que ataca o recém-nascido nos primeiros 26 dias de vida, já o tétano
+            acidental é uma infecção causada por uma bactéria encontrada na natureza e não contagiosa.
           </p>
         </div>
       </div>
@@ -92,24 +88,12 @@
           </div>
           <div class="textoResumoNeonatal">
             <p class="textoNeonatal">
-              O tétano neonatal (TNN) afeta recém-nascidos no primeiro mês de vida.
-              A bactéria causadora da doença se chama Clostridium tetani. <br>
+              O tétano neonatal (TNN) afeta recém-nascidos no primeiro mês de vida. A bactéria causadora da doença se
+              chama Clostridium tetani. <br>
               A suscetibilidade (capacidade de desenvolver a doença) do tétano neonatal é universal, podendo afetar
-              qualquer
-              recém-nascido,
-              independente do sexo. <br>A imunidade do recém-nascido é conferida pela vacinação da mãe e contrair a
-              doença
-              não confere imunidade.<br> A imunidade passiva,
-              por meio do soro antitetânico (SAT), dura em média duas semanas e pela imunoglobulina humana
-              antitetânica
-              (IGHAT) cerca de três semanas.<br>
+              qualquer recém-nascido, independente do sexo.<br>
               O tétano neonatal é transmitido pela contaminação do coto umbilical com os esporos da bactéria, podendo
-              ser
-              presentes em instrumentos não esterilizados e
-              utilizados para secção do cordão umbilical. <br>O diagnóstico do tétano neonatal é essencialmente
-              clínico
-              e
-              não existe exame laboratorial específico para confirmação do diagnóstico.
+              ser presentes em instrumentos não esterilizados e utilizados para secção do cordão umbilical.
             </p>
           </div>
         </div>
@@ -176,22 +160,14 @@
           </div>
           <div class="textoSituacaoNeonataldiv">
             <p class="textoSituacaoNeonatal">
-              Em 1989 a Organização de Saude (OMS) aprovou uma resolução propondo a eliminação do Tétano Neonatal
-              (TNN)
-              em
-              todo o mundo até o ano de 1995, onde a meta mínima de eliminação
-              seria equivalente a alcançar uma taxa de incidência de menos de um caso/1.000 nascidos por distrito ou
-              município.<br> Em 1992 esse plano fez com que a incidência da doença reduzisse
-              sensivelmente ao longo dos anos. No mesmo ano o plano foi implantado no Brasil e em 1995 o Plano
-              Emergencial
-              foi
-              implantado em municípios de alto risco. O número de casos do tétano neonatal passou de 215, em 1993,
-              para
-              16
-              casos em 2003, tendo uma redução de 92%.<br>
+              Em 1989 a Organização de Saude (OMS) aprovou uma resolução propondo a eliminação do Tétano Neonatal (TNN)
+              em todo o mundo até o ano de 1995, onde a meta mínima de eliminação seria equivalente a alcançar uma taxa
+              de incidência de menos de um caso/1.000 nascidos por distrito ou município. <br>
+              O número de casos do tétano neonatal passou de 215, em 1993, para 16 casos em 2003, tendo uma redução de
+              92%.<br>
               Em setembro de 2017 a Organização Pan-Americana de Saúde (Pas/OMS) declarou eliminado o tétano materno e
-              neonatal (TMN) nas Américas. O recente progresso na eliminação global levou
-              à eliminação da doença em 43 países. No mundo, há 16 países que ainda não eliminaram a doença.
+              neonatal (TMN) nas Américas.
+              A doença foi exterminada em 43 países, sendo 16 os países que ainda não eliminaram o tétano neonatal.
             </p>
           </div>
         </div>
@@ -212,18 +188,13 @@
         </div>
         <div class="textoResumoNeonatal">
           <p class="textoNeonatal">
-            O tétano acidental é uma infecção causada por uma bactéria encontrada na natureza e não é contagiosa. A
-            principal forma de prevenção é por meio da vacina pentavalente. A bactéria causadora do tétano acidental
-            pode
-            ser encontrada em peles, fezes, terra, galhos, plantas baixas, água suja e poeira.<br> Se não tratado
-            corretamente,
-            pode ser uma doença letal, tendo a chance de morte dependente da idade do enfermo, o tipo de ferimento e a
-            presença de outros problemas de saúde, como complicações respiratórias, renais e infecciosas.<br>
+            O tétano acidental é uma infecção causada por uma bactéria encontrada na natureza e não é contagiosa. Essa
+            bactéria causadora do tétano acidental pode ser encontrada em peles, fezes, terra, galhos, plantas baixas,
+            água suja e poeira.<br>
+            Se não tratado corretamente, pode ser uma doença letal, tendo a chance de morte dependente da idade do
+            enfermo, o tipo de ferimento e a presença de outros problemas de saúde, como complicações respiratórias,
+            renais e infecciosas.<br>
             O tétano acidental pode atingir qualquer pessoa, independente do sexo e idade e em qualquer lugar do mundo.
-            Essa doença não é transmitida de pessoa a pessoa. A transmissão ocorre, geralmente, pela contaminação de um
-            ferimento da pele ou mucosa. Os sintomas aparecem, em média, cerca de 5 a 15 dias após a infecção. Quanto
-            menor
-            o tempo em que os sintomas são aparentes, mais grave e pior é o prognóstico (resultado da doença).
           </p>
         </div>
       </div>
@@ -247,14 +218,10 @@
           O primeiro registro de ocorrência de tétano é de autoria de Hipócrates, que escreve no século V a.C., dando
           inúmeras descrições clínicas da doença. Contudo a sua causa foi descoberta somente em 1884, por Carle e
           Rattone.<br>
-          A primeira imunização passiva contra a doença foi implementada durante a Primeira Guerra Mundial.<br>Durante
-          muitos anos o antídoto era feito por injeção de toxina em cavalos, e o seu soro rico em anticorpos antitoxina
-          era administrado aos doentes. Contudo este processo gerava reações imunitárias contra os anticorpos do cavalo,
-          um problema denominado de doença do soro. Por essa razão, cada pessoa só podia receber antídoto uma vez na
-          vida,
-          pois a reação do seu sistema imunitário contra o anticorpo de cavalo era quase sempre fatal à segunda
-          aplicação
-          do soro.
+          A primeira imunização passiva contra a doença foi implementada durante a Primeira Guerra Mundial.
+          Durante muitos anos o antídoto era feito por injeção de toxina em cavalos, e o seu soro rico em anticorpos
+          antitoxina era administrado aos doentes. Contudo este processo gerava reações imunitárias contra os anticorpos
+          do cavalo, um problema denominado de doença do soro.
         </p>
       </div>
       <div class="tratamentoacidentaldiv">
@@ -266,28 +233,13 @@
           </div>
           <div class="textoTratamentoNeonataldiv">
             <p class="textoTratamentoNeonatal">
-              O diagnóstico dessa doença é clínico sem a necessidade de confirmação laboratorial.
-              Para o tratamento do tétano acidental, é necessário lavar o local onde houve uma lesão de pele/mucosa com
-              água
-              e
-              sabão e procurar o serviço de saúde mais próximo para avaliar a situação.<br> Se apresentar um dos sinais
-              e
-              sintomas
-              característicos do tétano,é indicado procurar a unidade ou equipe de saúde próxima. O doente é internado
-              em
-              unidade de assistencia, preferencialmente em unidade de terapia intensiva (UTI) onde existe suporte
-              técnico
-              necessário principalmente em complicações, sendo reduzidas as chances de sequelas e risco de morte.<br> O
-              procedimento de tratamento da doença envolve sedação do paciente, neutralização da toxina tetânica,
-              eliminação
-              do
-              C. tetani do foco da infecção, debridamento do foco infeccioso e medidades gerais de suporte de
-              enfermos.<br>O
-              soro antitetânico (SAT) visa neutralizar a toxina da bactéria. É um produto cada vez mais purificado, em
-              razão
-              do que se considera rara a possibilidade de causar comlicações graves, como choque anafilático e adoença
-              do
-              soro.
+              O diagnóstico dessa doença é clínico sem a necessidade de confirmação laboratorial. Para o tratamento do
+              tétano acidental, é necessário lavar o local onde houve uma lesão de pele/mucosa com água e sabão e
+              procurar o serviço de saúde mais próximo para avaliar a situação. O doente é internado em unidade de
+              assistencia, preferencialmente em unidade de terapia intensiva (UTI).<br>
+              O soro antitetânico (SAT) visa neutralizar a toxina da bactéria. É um produto cada vez mais purificado, em
+              razão do que se considera rara a possibilidade de causar comlicações graves, como choque anafilático e
+              adoença do soro.
             </p>
           </div>
         </div>
@@ -368,8 +320,25 @@
     } else {
       navbar.classList.remove("sticky");
     }
-  }</script>
+  }
 
+</script>
+
+<script>
+  $('.navbar-nav>li>#nav-home').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  $('.navbar-nav>li>#nav-bibliografia').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  $('.navbar-nav>#navb>ul>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
